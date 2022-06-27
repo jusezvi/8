@@ -1,0 +1,52 @@
+.main {
+  border-top-left-radius: 25px;
+  background-color: #fff;
+  display: flex;
+}
+
+.main section {
+  flex: 0.6;
+  padding: 50px 5px 40px 40px;
+}
+
+.main aside {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F5FA;
+  padding: 10px 20px;
+}
+
+.main aside button {
+  background-color: #3444CE;
+  color: #fff;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+
+@media only screen and (max-width: 867px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main section {
+    padding: 20px 20px 40px 20px;
+    width: 80%;
+  }
+
+  .main aside {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main section {
+    padding: 40px 0;
+  }
+}
