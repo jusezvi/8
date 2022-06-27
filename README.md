@@ -21,3 +21,5 @@ Atsijungimas - puslapis pamirsta, jog buvo prisijungta ir praso prisijungit per 
 Vartojo slaptazodis DB yra uzkoduotas - nesaugomas atvyrtu tekstu.
 Sukurta DB modeliai: vartotojas/adminas role (user/admin), knygu kategorijos, 
 
+Pirdeti print screen is DB. 
+
