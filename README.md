@@ -16,10 +16,10 @@ Pass: Just1
 Padaryti darbai:
 Registracija
 Prisijungimas
-Registracijos duomenys nueina i MongoDB serveri is kurio autenfikuojamas vaortojas prisijungimo metu
-Atsijungimas - puslapis pamirsta, jog buvo prisijungta ir praso prisijungit per naujo.
-Vartojo slaptazodis DB yra uzkoduotas - nesaugomas atvyrtu tekstu.
-Sukurta DB modeliai: vartotojas/adminas role (user/admin), knygu kategorijos, 
+Registracijos duomenys nueina i MongoDB serveri is kurio autenfikuojamas vartojas prisijungimo metu.
+Atsijungimas - puslapis pamirsta, jog buvo prisijungta ir praso prisijungti per naujo.
+Vartojo slaptazodis DB yra uzkoduotas - nesaugomas atvyru tekstu.
+Sukurta DB modeliai: vartotojas/adminas role (user/admin), knygu kategorijos. 
 
 Pirdeti print screen is DB. 
 
