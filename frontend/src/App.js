@@ -26,8 +26,8 @@ function App() {
             <Route path="/register" element={<Registration />} />
             <Route path="/login" element={<Login />} />
             
-            <Route path="/add" component={<AddNewBook />}  />
-            <Route path="/edit/:id" component={<EditBook />}  />
+            <Route path="/add" element={<AddNewBook />}  />
+            <Route path="/edit/:id" element={<EditBook />}  />
 
 
           </Route>

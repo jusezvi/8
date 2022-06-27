@@ -25,7 +25,7 @@ const AddBook = () => {
         {value: "", isValid: null}
     )
 
-    //book price asda
+    //book price
     const [bookAuthor, dispatchBookAuthor] = useReducer(
         (state, action) => {
             if(action.type === "BOOK_INPUT"){

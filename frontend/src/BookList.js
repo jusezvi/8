@@ -19,11 +19,11 @@ const BookList = () => {
         <table className={styles["content-table"]}>
             <thead>
                 <tr>
-                    <th className={styles.title}>Book Title</th>
-                    <th className={styles.author}>Author</th>
-                    <th className={styles.category}>Category</th>
-                    <th className={styles.price}>Price</th>
-                    <th className={styles.price}>Actions</th>
+                    <th className={styles.title}>Knygos pavadinimas</th>
+                    <th className={styles.author}>Autorius</th>
+                    <th className={styles.category}>Kategorija</th>
+                    <th className={styles.price}>??</th>
+                    <th className={styles.price}>Statusas</th>
                 </tr>
             </thead>
             {books.length > 0 && (
