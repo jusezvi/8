@@ -13,7 +13,6 @@ const AddBook = () => {
     const history = useNavigate();
     const [isFormValid, setIsFormValid] = useState(false);
 
-    //book title
     const [bookTitle, dispatchBookTitle] = useReducer(
         (state, action) => {
             if(action.type === "BOOK_INPUT"){
@@ -25,7 +24,7 @@ const AddBook = () => {
         {value: "", isValid: null}
     )
 
-    //book price
+   
     const [bookAuthor, dispatchBookAuthor] = useReducer(
         (state, action) => {
             if(action.type === "BOOK_INPUT"){
@@ -37,7 +36,7 @@ const AddBook = () => {
         {value: "", isValid: null}
     )
 
-    //bookprice
+    
     const [bookPrice, dispatchBookPrice] = useReducer(
         (state, action) => {
             if(action.type === "BOOK_INPUT"){
@@ -49,7 +48,7 @@ const AddBook = () => {
         {value: "", isValid: null}
     )
 
-    //bookSelect
+    
     const [bookCategory, dispatchBookCategory] = useReducer(
         (state, action) => {
             if(action.type === 'BOOK_INPUT'){
@@ -66,7 +65,7 @@ const AddBook = () => {
     const { isValid: bookPriceIsValid} = bookPrice;
     const { isValid: bookCategoryIsValid} = bookCategory;
 
-    //useEffect
+   
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsFormValid(
