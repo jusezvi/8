@@ -1,7 +1,3 @@
-# CentasPrieCento
-
-Runtime environment
-
 Aplikacijos paleidimui reikalinga atlikti tam tikras procedūras
 
 Užėję į Backend aplanką
@@ -13,4 +9,6 @@ Užėję į Frontend aplanką
 1. Įdiegiamos technologijos "npm i"\ naujame terminalo lange
 2. npm start
 
-Vartotojo vadovas pridėtas į "Dokumentacija" aplanką
+Login: just1@just.lt
+Pass: Just1
+
