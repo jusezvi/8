@@ -6,9 +6,10 @@ Užėję į Backend aplanką
 3. Paleidžiam serverį įrašę terminale "node server.js"
 
 Užėję į Frontend aplanką
-1. Įdiegiamos technologijos "npm i"\ naujame terminalo lange
+1. Įdiegiamos technologijos "npm install" naujame terminalo lange
 2. npm start
 
+Prisijungimas http://localhost:3000/login
 Login: just1@just.lt
 Pass: Just1
 
@@ -21,5 +22,5 @@ Atsijungimas - puslapis pamirsta, jog buvo prisijungta ir praso prisijungti per 
 Vartojo slaptazodis DB yra uzkoduotas - nesaugomas atvyru tekstu.
 Sukurta DB modeliai: vartotojas/adminas role (user/admin), knygu kategorijos. 
 
-Pirdeti print screen is DB. 
+Prideti print screen is DB. 
 
